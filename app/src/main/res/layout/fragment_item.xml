@@ -1,0 +1,138 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ItemListFragment">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@color/coral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10pt"
+            android:textColor="@color/whiteColor"
+            android:text="Name of item: "
+            android:fontFamily="cursive"
+            android:layout_gravity="center_vertical"
+            android:textSize="12pt"/>
+
+        <EditText
+            android:id="@+id/itemNameID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteColor"
+            android:textSize="12pt"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10pt"
+            android:text="Retail price: "
+            android:fontFamily="cursive"
+            android:layout_gravity="center_vertical"
+            android:textSize="12pt"/>
+
+        <EditText
+            android:id="@+id/retailPID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10pt"
+            android:textSize="10pt"
+            android:fontFamily="casual"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10pt"
+            android:text="Sale price: "
+            android:fontFamily="cursive"
+            android:layout_gravity="center_vertical"
+            android:textSize="12pt"/>
+
+        <EditText
+            android:id="@+id/salePID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:fontFamily="casual"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10pt"
+            android:text="Wholesale price: "
+            android:fontFamily="cursive"
+            android:layout_gravity="center_vertical"
+            android:textSize="12pt"/>
+
+        <EditText
+            android:id="@+id/wholesalePID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:fontFamily="casual"
+            android:gravity="right"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10pt"
+            android:text="In stock: "
+            android:fontFamily="cursive"
+            android:layout_gravity="center_vertical"
+            android:textSize="12pt"/>
+
+        <EditText
+            android:id="@+id/stockCountID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10pt"
+            android:textAlignment="center"
+            android:textSize="12pt"
+            android:fontFamily="casual"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
